@@ -31,6 +31,10 @@
 
 6. Now, open any browser, head over to `http://localhost/cybershop-main/`
 
+7. Additionaly, Install this extension and enable it (Name - Allow CORS)
+   [https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
+  *Checkout function in cart sometimes, doesn't work. With this extension, it will work*
+
 # How to use
 
 - You can create new users (only one admin)
