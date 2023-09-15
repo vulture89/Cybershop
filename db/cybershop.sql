@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 INSERT IGNORE INTO `admin` (`role`, `admin_email`, `password`, `fname`, `lname`) VALUES
-	('admin', 'cybershopAdmin@gmail.com', '350c827916fdc81e6531b3ba72547f1f', 'Hex ', 'Op');
+	('admin', 'cybershopAdmin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'Hex ', 'Op');
 
 CREATE TABLE IF NOT EXISTS `blocked_status` (
   `id` int NOT NULL,
