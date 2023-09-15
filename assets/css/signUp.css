@@ -1,0 +1,48 @@
+.img-card {
+  display: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.input:hover {
+  transform: scale(1.01);
+}
+
+.input {
+  transition: .2s all;
+}
+
+.container {
+  max-width: 750px;
+}
+
+.row.bottom-fix {
+  position: fixed;
+  bottom: 0;
+}
+
+.btn.btn-primary.d-block {
+  transition: .3s all;
+}
+
+.btn.btn-primary.d-block:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card {
+  border: none;
+}
+
+.name {
+  letter-spacing: 4px;
+}
+
+.msgSignUp {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+

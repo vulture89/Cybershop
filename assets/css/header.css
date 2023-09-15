@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.b {
+    font-weight: 100;
+}
+
+.link-elem {
+    cursor: pointer;
+}
+
+.nlink-elem {
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.dropdown_nav {
+    border: none;
+}
+
+.outline-categories {
+    outline: 1px solid #ced4da;
+}
+
+.notificationImg {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.notificationImg img {
+    width: auto;
+    height: auto;
+}
+
+.notificationBox {
+    transition: 0.3s all;
+    z-index: 6969969699696969969;
+}
+
+.notificationMsg {
+    padding: 20px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: .3s all ease-out;
+}
+
+.dateNotifications {
+    position: absolute;
+    bottom: -15px;
+    right: 7px;
+    font-size: 10px;
+    color: #fff;
+}
+
+#spinnerNotifications {
+    visibility: hidden;
+    width: 100%;
+    height: 210px;
+}
+
+.deleteNotification::after {
+    content: '\f2ed';
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.667);
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 22px;
+    right: 23px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.deleteNotification:hover::after {
+    color: white;
+    transform: scale(1.05);
+}
+
+.moveTotrash {
+    transform: translateX(150%);
+    opacity: .2;
+    display: none;
+}

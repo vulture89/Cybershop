@@ -1,0 +1,108 @@
+body {
+  overflow-x: hidden;
+}
+
+.w {
+  cursor: pointer;
+}
+
+.inputText {
+  width: 100%;
+  border: 2px solid #092ef1;
+  border-style: dotted;
+  padding: 10px;
+}
+
+.btCondition {
+  border-radius: 0px;
+}
+
+.btCondition:hover {
+  color: white;
+  background-color: #0d6efd;
+}
+
+.selectOpt {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.btBottom {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0;
+  padding: 12px 15px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btBottom.reset {
+  color: red;
+}
+
+.btBottom.reset:hover {
+  color: #ffffff;
+  background-color: red;
+}
+
+.btBottom.save {
+  color: #0d6efd;
+}
+
+.btBottom.save:hover {
+  color: #ffffff;
+  background-color: #0d6efd;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer img {
+  width: auto;
+  height: 100%;
+}
+
+.bd {
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.addTypesBt {
+  width: 100%;
+  background-color: #f8f9fa;
+  color: black;
+  outline: none;
+  border: none;
+}
+
+.addNewTextField {
+  border: none;
+  background: rgb(232,232,232);
+}
+
+#productSuccessful, 
+#productUpdated {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}

@@ -1,0 +1,25 @@
+::-webkit-scrollbar {width: 10px;}::-webkit-scrollbar-track {background-color: var(--bs-light);}::-webkit-scrollbar-thumb {background-color: var(--bs-gray-400);}
+
+body {
+  overflow-x: hidden;
+}
+
+.bd {
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.w {
+  cursor: pointer;
+}
+
+.div_linto_history:hover .linkto_history {
+  letter-spacing: 1px;
+}
+
+.linkto_history {
+  transition: .2s all;
+}
+

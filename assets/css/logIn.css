@@ -1,0 +1,51 @@
+body {
+  overflow-x: hidden;
+}
+
+.card {
+  border: none;
+}
+
+.img-card {
+  display: none;
+}
+
+.row.bottom-fix {
+  position: fixed;
+  bottom: 0;
+}
+
+.logo {
+  height: 100%;
+  width: 40px;
+}
+
+.logo {
+  height: 100%;
+  width: 70px;
+}
+
+.logo-name {
+  letter-spacing: 4px;
+}
+
+.logo-container {
+  position: fixed;
+  top: 0;
+}
+
+.name {
+  letter-spacing: 4px;
+}
+
+.resetPswd-icon {
+  width: 80px;
+}
+
+#vcodeSending, #reqToAdmin, #pswdChanged {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+

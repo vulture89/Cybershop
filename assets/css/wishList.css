@@ -1,0 +1,19 @@
+.bd {
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.imgBx {
+  width: 120px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w {
+  cursor: pointer;
+}
+

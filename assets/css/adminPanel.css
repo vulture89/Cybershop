@@ -1,0 +1,347 @@
+.w {
+    cursor: pointer;
+}
+
+.userProfile img {
+    width: 100%;
+}
+
+.mostSeller_img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.userProfile {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.mostSeller_img img {
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.manageUser_box {
+    border: 1px solid #b5b5b5;
+    border-radius: 10px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+
+.team-clean {
+    color: #313437;
+    background-color: #fff;
+}
+
+.team-clean p {
+    color: #7d8285;
+}
+
+.team-clean h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media(max-width:767px) {
+    .team-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.team-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.team-clean .intro p {
+    margin-bottom: 0;
+}
+
+.team-clean .people {
+    padding-bottom: 40px;
+}
+
+.team-clean .item {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team-clean .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+}
+
+.team-clean .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.team-clean .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.team-clean .item img {
+    max-width: 160px;
+}
+
+.team-clean .social {
+    font-size: 18px;
+    color: #a2a8ae;
+}
+
+.team-clean .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.team-clean .social a:hover {
+    opacity: 1;
+}
+
+.profilePic {
+    width: 65px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.profilePic img {
+    width: 100%;
+    height: auto;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    width: 3px;
+}
+
+.scrollDiv::-webkit-scrollbar-track {
+    background-color: var(--bs-light);
+}
+
+.scrollDiv::-webkit-scrollbar-thumb {
+    background-color: var(--bs-gray-800);
+}
+
+.addfriendBt {
+    transition: 0.3s all ease;
+    color: #ffffff;
+    cursor: pointer;
+    background: #7b85e3;
+}
+
+.userBox {
+    cursor: pointer;
+}
+
+.msgInput {
+    outline: none;
+}
+
+.features-boxed {
+    color: #313437;
+}
+
+.features-boxed p {
+    color: #7d8285;
+}
+
+.features-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media(max-width:767px) {
+    .features-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.features-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.features-boxed .features {
+    padding: 50px 0;
+}
+
+.features-boxed .item {
+    text-align: center;
+}
+
+.features-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.features-boxed .item .icon {
+    font-size: 60px;
+    color: #1485ee;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.features-boxed .item .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: inherit;
+}
+
+.features-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.navigation-clean {
+    background: #fff;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #333;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+    .navigation-clean {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.navigation-clean .navbar-brand {
+    font-weight: bold;
+    color: inherit;
+}
+
+.navigation-clean .navbar-brand:hover {
+    color: #222;
+}
+
+.navigation-clean .navbar-toggler {
+    border-color: #ddd;
+}
+
+.navigation-clean .navbar-toggler:hover,
+.navigation-clean .navbar-toggler:focus {
+    background: none;
+}
+
+.navigation-clean .navbar-toggler {
+    color: #888;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #8f8f8f;
+    box-shadow: none;
+    background: none;
+    pointer-events: none;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+    color: #465765;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+    color: #37434d !important;
+    background-color: transparent;
+}
+
+.navigation-clean .navbar-nav > li > .dropdown-menu {
+    margin-top: -5px;
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus,
+.navigation-clean .dropdown-menu .dropdown-item {
+    line-height: 2;
+    color: #37434d;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus,
+.navigation-clean .dropdown-menu .dropdown-item:hover {
+    background: #eee;
+    color: inherit;
+}
+
+.manageUser_box:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+#newCategoryAdded,
+#newBrandAdded,
+#newModelAdded {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+#navBar {
+    background: rgba(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    margin-bottom: 34px;
+    transition: .2s all ease-in;
+}
+
+.boxshadow_navbar {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.chatBOXX::-webkit-scrollbar {
+    width: 10px;
+}
+.chatBOXX::-webkit-scrollbar-track {
+    background-color: var(--bs-dark);
+}
+.chatBOXX::-webkit-scrollbar-thumb {
+    background-color: var(--bs-gray-800);
+}

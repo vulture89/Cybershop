@@ -1,0 +1,42 @@
+#scrollToTop__btn {
+    display: none;
+    background: #004575;
+    position: fixed;
+    right: 1.2em;
+    bottom: 1.2em;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    padding: 0 1.2em;
+    border: 1px solid #3B2551;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 44px;
+    z-index: 100000;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: -9px;
+    margin-top: -5px;
+    cursor: pointer;
+  }
+
+.up:hover polyline,
+.up:focus polyline {
+    stroke-width: 15;
+}
+
+.up:active polyline {
+    stroke-width: 15;
+    transition: all 100ms ease-in-out;
+}
+
+#scrollToTop__btn:hover {
+    background-color: #555;
+}

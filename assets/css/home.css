@@ -1,0 +1,301 @@
+.cat {
+  outline: 1px solid #ced4da;
+  border: none;
+}
+
+.navigation {
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.headingNav {
+  letter-spacing: 2px;
+}
+
+.btToggle {
+  outline: none;
+  border: none;
+}
+
+.jumbo_side_img {
+  background: url("../../assets/img/istockphoto-1152401093-612x612.jpg") center no-repeat;
+  background-size: contain;
+}
+
+.z {
+  z-index: 5;
+}
+
+.iphone14Hero {
+  width: 3008px;
+  height: 736px;
+  background-size: 3008px 736px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iphoneHero {
+  z-index: 0;
+  transform: scale(1.50);
+}
+
+.w {
+  cursor: pointer;
+}
+
+.lap {
+  background: url("../../assets/img/p4lgkzfdbhiy2qzt-1_0_desktop_1X.jpg") center no-repeat;
+  background-size: 1262px 580px;
+}
+
+.lap2 {
+  height: 777px;
+  background: url("../../assets/img/wob1hq4xlyerz0jn-0_0_desktop_0_1X.jpg") center no-repeat;
+}
+
+
+.module {
+  width: 100%;
+  overflow: hidden;
+}
+
+.topText {
+  position: relative;
+  z-index: 4;
+  pointer-events: none;
+  margin-top: 47px;
+  color: black;
+}
+
+.watchSpan {
+  letter-spacing: 2px;
+}
+
+.cta_links {
+  position: relative;
+  z-index: 4;
+  margin-top: .8em;
+}
+
+.watchLinks {
+  text-decoration: none;
+}
+
+.imageWatch {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.imageWatch img {
+  width: 100%;
+  height: auto;
+  margin-top: -55px;
+  transform: scale(1.3);
+}
+
+.titleCyberShop {
+  opacity: 0.58;
+  text-shadow: 0px 0px 4px;
+}
+
+.carousel-item {
+  height: 700px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.ad1 {
+  background: url("../../assets/img/laptops-lowres-2x1-.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.ad2 {
+  background: url("../../assets/img/The-Best-Phones-in-2022-updated-August.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.ad3 {
+  background: url("../../assets/img/AdobeStock_274383137.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.ad4 {
+  background: url("../../assets/img/https___hypebeast.com_image_2020_12_airpods-max-closer-look-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.ad5 {
+  background: url("../../assets/img/01Wsuw14K02wrCTGIwg8xA8-15.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.ad6 {
+  background: url("../../assets/img/maxresdefault.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.centerSpan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.IPhonecAT {
+  width: 358PX;
+}
+
+.scrollDiv::-webkit-scrollbar {
+  height: 4px;
+}
+
+.scrollDiv::-webkit-scrollbar-track {
+  background-color: var(--bs-gray-100);
+}
+
+.scrollDiv::-webkit-scrollbar-thumb {
+  background-color: var(--bs-gray-300);
+}
+
+.scrollDiv {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.products__imgContainer {
+  width: 100%;
+  height: 200px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  transition: .3s all cubic-bezier(0, 1.1, 1, 1.01);
+}
+
+.products__img {
+  width: auto;
+  height: 100%;
+}
+
+.products__itemContainer:hover .products__imgContainer {
+  transform: scale(1.1);
+}
+
+.products__cardBody {
+  margin: 0px 15px;
+  background-color: var(--bs-gray-100);
+  position: relative;
+}
+
+.products__colourBox {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.fav_icon {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100000;
+}
+
+.products__itemContainer {
+  overflow: hidden;
+}
+
+.product__addBt {
+  width: 90%;
+  padding: 10px 0px;
+  color: #506671;
+  letter-spacing: 2px;
+  border-color: rgba(80,102,113,0.73);
+  transform: scale(0.7);
+  transition: .1s all;
+}
+
+.product__addBt:hover {
+  color: #000000;
+  letter-spacing: 3px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.w {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cr:hover {
+  text-decoration: none;
+}
+
+.cTitle {
+  position: relative;
+  display: inline-block;
+}
+
+.cTitle::before {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: '\f103';
+  width: 10px;
+  height: 10px;
+  right: 27px;
+  top: 0;
+  transition: .2s all;
+}
+
+.cTitle::after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+
+.cTitle:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.searchCloseBT {
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+.searchResults_heading, .nosearchResults_heading {
+  position: relative;
+}
+
+.searchDiv {
+  margin-top: 80px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .iphone14Hero {
+    height: 585px;
+  }
+  .iphoneHero {
+    transform: scale(0.9);
+  }
+  .samsungTab {
+    width: 344px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .lap2 {
+    height: 548px;
+    background: url("../../assets/img/wob1hq4xlyerz0jn-0_0_mobile_0_1X.jpg") center no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+}
