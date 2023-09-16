@@ -42,3 +42,12 @@
 - Users and admins can message 
 - Users can buy products
 
+#Accounts
+Use these two accounts. You can always create more.
+-Admin 
+   -email - cybershopadmin@gmail.com
+   -pswd - 123456
+-User 
+   -email - cybershopofficial23@gmail.com
+   -pswd - 123456
+
