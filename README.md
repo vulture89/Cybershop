@@ -45,9 +45,9 @@
 # Accounts
 Use these two accounts. You can always create more.
 - Admin 
-   -email - cybershopadmin@gmail.com
-   -pswd - 123456
+   - email - cybershopadmin@gmail.com
+   - pswd - 123456
 - User 
-   -email - cybershopofficial23@gmail.com
-   -pswd - 123456
+   - email - cybershopofficial23@gmail.com
+   - pswd - 123456
 
