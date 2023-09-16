@@ -44,10 +44,10 @@
 
 # Accounts
 Use these two accounts. You can always create more.
--Admin 
+- Admin 
    -email - cybershopadmin@gmail.com
    -pswd - 123456
--User 
+- User 
    -email - cybershopofficial23@gmail.com
    -pswd - 123456
 
