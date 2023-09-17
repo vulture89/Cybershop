@@ -251,7 +251,7 @@
                     <div style="padding: 15px 0px;">
                         <p style="font-size: 18px;">→ Write a review</p>
                         <p style="display: none;" id="feedBack_productId"></p>
-                        <textarea idreview="" type="text" rows="4" style="width: 100%;padding: 10px 15px;" placeholder="Your feedback"></textarea>
+                        <textarea id="review" type="text" rows="4" style="width: 100%;padding: 10px 15px;" placeholder="Your feedback"></textarea>
                     </div>
                     <hr>
                     <div class="d-flex justify-content-end">
